@@ -2,11 +2,14 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import './index.css'
 // import App from './App.tsx'
-import FormComponent from "./Form.tsx"
+// import FormComponent from "./Form.tsx"
+
+import MouseEventsExample from './MouseEventsExample.tsx';
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     {/* <App /> */}
-    <FormComponent />
+    {/* <FormComponent /> */}
+    <MouseEventsExample />
   </StrictMode>
 );
