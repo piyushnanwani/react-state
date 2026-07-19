@@ -4,12 +4,14 @@ import { createRoot } from 'react-dom/client'
 // import App from './App.tsx'
 // import FormComponent from "./Form.tsx"
 
-import MouseEventsExample from './MouseEventsExample.tsx';
+// import MouseEventsExample from './MouseEventsExample.tsx';
+import ControlledForm from "./ControlledForm.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     {/* <App /> */}
     {/* <FormComponent /> */}
-    <MouseEventsExample />
+    {/* <MouseEventsExample /> */}
+    <ControlledForm />
   </StrictMode>
 );

@@ -22,6 +22,9 @@ const FormComponent: React.FC = () => {
 
   return (
     <form onSubmit={handleSubmit} >
+      
+      {/* <input type="text" />  */}
+
       <input 
         value={name}
         type="text"
@@ -34,5 +37,6 @@ const FormComponent: React.FC = () => {
       </form>
   )
 }
+
 
 export default FormComponent;
